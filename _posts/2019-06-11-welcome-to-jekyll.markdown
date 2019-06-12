@@ -6,11 +6,6 @@ categories: Mitra Update
 markdown: kramdown
 kramdown:
     parse_block_html: true
-recwork:
-   - name:  Blockchains.  A decentralized inter-operable agent for multiple blockchains including EOS and Ethereum. 
-     image:   <img src="/images/BlockchainUnsplash.jpg" alt="drawing" width="200"/>
-   - name:   Chatbot.  A chatbot for use by a leading health care provider.
-     image:  <img src="/images/BlockchainUnsplash.jpg" alt="drawing" width="200"/>
 ---
 Mitra specializes in design and implementation of leading edge systems.  Here are a few of our current efforts:
 
