@@ -3,39 +3,74 @@ layout: post
 title:  "Welcome to Mitra LLC!"
 date:   2019-06-11 10:56:27 -0700
 categories: Mitra Update
+markdown: kramdown
+kramdown:
+    parse_block_html: true
+recwork:
+   - name:  Blockchains.  A decentralized inter-operable agent for multiple blockchains including EOS and Ethereum. 
+     image:   <img src="/images/BlockchainUnsplash.jpg" alt="drawing" width="200"/>
+   - name:   Chatbot.  A chatbot for use by a leading health care provider.
+     image:  <img src="/images/BlockchainUnsplash.jpg" alt="drawing" width="200"/>
 ---
-Mitra specializes in design and implementation of systems at the leading edge.  Here are a few of our current efforts:
+Mitra specializes in design and implementation of leading edge systems.  Here are a few of our current efforts:
 
-Some of our recent work:
+# Some of our recent work:
 
-Blockchains:  A decentralized inter-operable agent for multiple blockchains including EOS and Ethereum.
+<style>
+* {
+  box-sizing: border-box;
+}
 
-Chatbot:  A chatbot for use by a leading health care provider
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
-Social networking:  A novel twist on social networking and instaplays.  
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 
 
-Our Philosophy:
-Fuel innovation by developing a solution incrementally based on market forces.
+<div class="row">
+  <div class="column">
+- Blockchains.  A decentralized inter-operable agent for multiple blockchains including EOS and Ethereum. 
+</div>
+<div class="column">
+<img src="/images/BlockchainUnsplash.jpg" alt="drawing" width="200"/>
+</div>
+</div>
 
-Adjust to customer's requirements.
+<div class="row">
+<div class="column">
+- Chatbot.  A chatbot for use by a leading health care provider.
+</div>
+<div class="column">
+<img src="/images/ChatbotUnsplash.jpg" alt="drawing" width="200"/>
+</div>
+</div>
+
+<div class="row">
+  <div class="column">
+- Socialize with games.  A novel twist on social networking and instaplays.
+</div>
+<div class="column">
+<img src="/images/InstaplayUnsplash.jpg" alt="drawing" width="100"/>
+</div>
+</div>
+
+# Our Philosophy:
+- Fuel innovation by developing a solution incrementally based on market forces.
+
+- Adjust to customer's requirements.
   
-Reduce monthly cost of maintaining a solutions.  Lean startups last longer. 
+- Reduce monthly cost of maintaining a solutions.  Lean startups last longer. 
 
-Cloud everywhere.  Structure systems using both SQL and NoSQL.
+- Cloud everywhere.  Structure systems using both SQL and NoSQL.
 
-
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

@@ -16,13 +16,11 @@
 title: Mitra LLC
 email: shahram.ghandeharizadeh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Mitra is a leading provider of innovative systems and applications.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+# github_username:  jekyll
 
 # Build settings
 markdown: kramdown
@@ -30,6 +28,14 @@ theme: minima
 # theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+  # parse markdown inside block-level HTML tag
+  parse_block_html: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
